@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RestaurantData using XMLFile & AJAX request</title>
+    <script src="script.js"></script>
+    <style>
+      /* basic style for Unordered list */
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        margin: 10px 0;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .box {
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h2>Restaurant Data List</h2>
+
+      <!--the list of restaurants -->
+      <ul id="restaurantList"></ul>
+      <!--Call the loadXMLFileData function when the button click event-->
+      <button onclick="loadXMLFileData()" id="myButton">Show Data</button>
+      <!--Call the loadXMLFileData function when Pageloads-->
+      <!--window.onload = loadXMLFileData;-->
+    </div>
+  </body>
+</html>

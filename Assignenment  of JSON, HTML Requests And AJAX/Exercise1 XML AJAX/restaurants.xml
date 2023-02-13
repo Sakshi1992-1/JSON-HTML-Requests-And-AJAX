@@ -1,0 +1,9 @@
+<restaurants>
+   <restaurant name="Yellow Chilli" address="New Delhi" lat="47.608940" lng="-122.340141" type="sitdown"/>
+  <restaurant name="Yum" address="Noida" lat="46.608940" lng="-126.340141" type="sitdown"/>
+  <restaurant name="Ruby" address="Gurugram" lat="50.608940" lng="-129.340141" type="bar"/>
+  <restaurant name="Ribab" address="Gajiyabad" lat="57.608940" lng="-132.340141" type="bar"/>
+  <restaurant name="Chilli" address="New Delhi" lat="47.608940" lng="-122.340141" type="sitdown"/>
+</restaurants>
+
+
